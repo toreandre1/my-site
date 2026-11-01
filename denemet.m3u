@@ -1,0 +1,29 @@
+#EXTM3U 
+#EXTINF:-1 type="stream" channelId="1055" tvg-logo="https://www.trt.net.tr/_nuxt/img/trt-1-televizyon-kanali.4c9c3dd.png", TRT 1
+https://tv-trt1.medya.trt.com.tr/master_360.m3u8
+#EXTINF:-1 type="stream" channelId="3996" tvg-logo="https://i.imgur.com/HyVUwFC.png", atv
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_360p.m3u8
+#EXTINF:-1 type="stream" channelId="3699" tvg-logo="https://i.imgur.com/9O3DHRB.png", Star TV
+http://dogus.daioncdn.net/startv/startv_360p.m3u8?&sid=885bthl57im2&app=a20ac41e-bdc3-4aa1-934d-26b484480ac9&ce=3
+#EXTINF:-1 type="stream" channelId="1044" tvg-logo="https://i.imgur.com/9o1atM6.png", Kanal D
+https://demiroren.daioncdn.net/kanald/kanald_360p.m3u8?&sid=884ztjlv447v&app=da2109ea-5dfe-4107-89ab-23593336ed61&ce=3
+#EXTINF:-1 type="stream" channelId="1045" tvg-logo="https://i.imgur.com/1l7SCCu.png", Show TV
+https://ciner.daioncdn.net/showtv/showtv_360p.m3u8?ex=10800&st=wc8LNGiBKiI5dP6t79N-hg&sid=8851u0ozgj96&app=4bc856ef-4c68-4a94-bc87-37dfaaa66558&ce=2
+#EXTINF:-1 type="stream" channelId="1047" tvg-logo="https://i.imgur.com/5EYjWK7.png", Now TV
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_360p.m3u8
+#EXTINF:-1 type="stream" channelId="1076" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/6/68/Tv8_Yeni_Logo.png", TV8
+https://tv8.daioncdn.net/tv8/tv8_360p.m3u8?&sid=884zjwsv7io9&app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
+#EXTINF:-1 type="stream" channelId="1076" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/tv8-5-buyuk.png", TV8.5
+https://tv8.daioncdn.net/tv8bucuk/tv8bucuk_360p.m3u8?app=tv8bucuk_web
+#EXTINF:-1 type="stream" channelId="1076" tvg-logo="https://www.digiturkburada.com.tr/kanal3/kanal-buyuk/a2-hd-buyuk.png", A2
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv_360p.m3u8
+#EXTINF:-1 type="stream" channelId="3983" tvg-logo="https://i.imgur.com/agn47sQ.png", 360 TV
+https://turkmedya-live.ercdn.net/tv360/tv360_360p.m3u8
+#EXTINF:-1 type="stream" channelId="1076" tvg-logo="https://i.imgur.com/C3m6w5S.png", Meltem TV
+https://vhxyrsly.rocketcdn.com/meltemtv/playlist_360.m3u8
+#EXTINF:-1 type="stream" channelId="1060" tvg-logo="https://www.trt.net.tr/_nuxt/img/trt-spor-televizyon-kanali.0fcf904.png", TRT Spor
+https://tv-trtspor1.medya.trt.com.tr/master_360.m3u8
+#EXTINF:-1 type="stream" channelId="-1" tvg-logo="https://www.trt.net.tr/_nuxt/img/trt-spor-yildiz-televizyon-kanali.588596f.png", TRT Spor Yildiz
+https://tv-trtspor2.medya.trt.com.tr/master_360.m3u8
+#EXTINF:-1 type="stream" channelId="3089" tvg-logo="https://i.imgur.com/ZhkZzLf.png", A Spor
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_360p.m3u8
