@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+<title>Yeni Sekme</title>
+<meta name="robots" content="noindex">
+<meta charset="utf-8">
+<style>
+* {
+	 margin: 0;
+	 padding: 0;
+}
+ body {
+	 padding: 20px;
+	 text-align: left;
+	 font-family: Georgia;
+	 color: #fff;
+	 background: #111;
+}
+ .tabs {
+	 width: 95%;
+	 float: none;
+	 list-style: none;
+	 position: relative;
+	 margin: 10px 0 10px 10px;
+	 text-align: left;
+}
+ .tabs li {
+	 float: left;
+	 display: block;
+	 border-style: solid;
+}
+ .tabs input[type="radio"] {
+	 position: absolute;
+	 top: 0;
+	 left: -9999px;
+}
+ .tabs label {
+	 display: block;
+	 padding: 14px 55px;
+	 border-radius: 2px 2px 0 0;
+	 font-size: 18px;
+	 font-weight: normal;
+	 text-transform: uppercase;
+	 background: #333;
+	 cursor: pointer;
+	 position: relative;
+	 top: 0;
+}
+ .tabs label:hover {
+	 background: #544341;
+}
+ .tabs .tab-content {
+	 z-index: 2;
+	 display: none;
+	 overflow: hidden;
+	 width: 100%;
+	 font-size: 37px;
+	 font-family: Consolas, serif;
+	 line-height: 25px;
+	 padding: 25px;
+	 position: absolute;
+	 top: 53px;
+	 left: 0;
+	 background: #1e1e1e;
+}
+ .tabs [id^="tab"]:checked + label {
+	 top: 0;
+	 padding-top: 14px;
+	 background: #66382f;
+}
+ .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+	 display: block;
+}
+ p.link {
+	 clear: both;
+	 margin: 15px 0 0 15px;
+}
+ p.link a {
+	 text-decoration: none;
+	 display: inline-block;
+	 color: #fff;
+	 padding: 25px 20px;
+	 margin: 0 10px 20px 5px;
+	 background-color: #273840;
+	 border-style: double;
+	 width: 230px;
+	 text-align: center;
+}
+ p.link a:hover {
+	 background-color: #544341;
+	 border-style: dashed;
+}
+ 
+</style>
+</head>
+<body>
+<ul class="tabs" role="tablist">
+    <li>
+        <input type="radio" name="tabs" id="tab1" checked />
+        <label for="tab1" 
+               role="tab" 
+               aria-selected="true" 
+               aria-controls="panel1" 
+               tabindex="0">Gündem</label>
+        <div id="tab-content1" 
+             class="tab-content" 
+             role="tabpanel" 
+             aria-hidden="false">
+          <p class="link">
+								<a href="https://www.cumhuriyet.com.tr/">Cumhuriyet</a>
+								<a href="https://www.sozcu.com.tr/">Sözcü</a>
+								<a href="https://www.nefes.com.tr/">Nefes</a>
+								<a href="https://www.tele2haber.com/">Tele2</a>
+								<a href="https://odatv4.com/">OdaTv</a>
+								<a href="https://www.korkusuz.com.tr/">Korkusuz</a>
+								<a href="https://www.karar.com/">Karar</a>
+								<a href="https://www.yenicaggazetesi.com.tr/">Yeniçağ</a>
+								<a href="https://www.trabzonx.com/sis-perdesi/">Trabzonx</a>
+								<a href="https://www.birgun.net/yazarlar">Birgün</a>
+			</p>
+        </div>
+    </li>
+  
+    <li>
+        <input type="radio" name="tabs" id="tab2" />
+        <label for="tab2"
+               role="tab" 
+               aria-selected="false" 
+               aria-controls="panel2" 
+               tabindex="0">Spor</label>
+        <div id="tab-content2" 
+             class="tab-content"
+             role="tabpanel" 
+             aria-hidden="true">
+				<p class="link"><a href="https://www.iddaa.com/program/futbol?menuRoute=false&muk=1_1,2_88,2_100,2_101_2.5,2_89&m=false">İddaa</a>
+								<a href="https://www.nesine.com/iddaa">Nesine</a>
+								<a href="https://arsiv.mackolik.com/Iddaa-Programi">Maçkolik</a>
+								<a href="https://www.nesine.com/iddaa/canli-skor/futbol">Sonuçlar</a>
+								<a href="https://www.livesoccertv.com/tr/">Hangi</a>
+								<!--  <a href="http://edzizle.xyz:8080/get.php?username=erolciling&password=wmGpxb7&type=m3u_plus&output=ts">Digitürk</a> -->
+								<a href="https://sportsonline.si/channels/hd/hd1.php">Maç Tv-1</a>
+								<a href="https://v2.sportsonline.ps/channels/pt/sporttv1.php">Maç Tv-2</a>
+								<a href="https://v2.sportsonline.ps/channels/hd/hd1.php">Maç Tv-3</a>
+								<a href="https://trgoalsgiris.xyz/">TR Goals</a>
+								<a href="https://ikasbettv5.com/">Maç Tv-Z</a>
+				</p>
+        </div>
+    </li>
+  
+    <li>
+        <input type="radio" name="tabs" id="tab3" />
+        <label for="tab3"
+               role="tab" 
+               aria-selected="false" 
+               aria-controls="panel3" 
+               tabindex="0">Oyun</label>
+        <div id="tab-content3" 
+             class="tab-content"
+             role="tabpanel" 
+             aria-hidden="true">
+				<p class="link"><a href="https://cardgames.io/yahtzee/">Yatzee</a>
+								<a href="https://cardgames.io/farkle/">Farkle</a>
+								<a href="https://cardgames.io/hearts/">Hearts</a>
+								<a href="https://water.niau.lt/index.html">Tüpler</a>
+								<a href="https://wordleplay.com/tr/">Sözcük</a>
+								<a href="https://cardgames.io/seabattle/">Amiral</a>
+								<a href="https://www.bilgiyarismasi.com/">Bilgi</a>
+				</p>
+        </div>
+    </li>
+  
+    <li>
+        <input type="radio" name="tabs" id="tab4" />
+        <label for="tab4"
+               role="tab" 
+               aria-selected="false" 
+               aria-controls="panel4" 
+               tabindex="0">Film</label>
+        <div id="tab-content4" 
+             class="tab-content"
+             role="tabpanel" 
+             aria-hidden="true">
+				<p class="link"><a href="https://unutulmazfilmler4.com/">Unutulmaz</a>
+								<a href="https://www.hdfilmcehennemi.com/">Cehennem</a>
+								<a href="https://jetfilmizle.io/">Jetfilm</a>
+								<a href="https://www.fullhdfilmizlesene.de/">Fullhd</a>
+								<a href="https://filmmakinesi.de/">Makine</a>
+								<a href="https://filmekseni.net/">FilmEkseni</a>
+								<a href="https://webteizle.info/">Webteizle</a>
+				</p>
+        </div>
+    </li>
+  
+    <li>
+        <input type="radio" name="tabs" id="tab5" />
+        <label for="tab5"
+               role="tab" 
+               aria-selected="false" 
+               aria-controls="panel5" 
+               tabindex="0">Dizi</label>
+        <div id="tab-content4" 
+             class="tab-content"
+             role="tabpanel" 
+             aria-hidden="true">
+				<p class="link">	<a href="https://dizillahd.com/sherlock-1-sezon">Sherlock</a>
+								<a href="https://dizillahd.com/babylon-berlin-1-sezon">Berlin</a>
+								<a href="https://dizillahd.com/endeavour-1-sezon">Endeavour</a>
+								<a href="https://dizillahd.com/luther-1-sezon">Luther</a>
+								<a href="https://dizillahd.com/ripper-street-1-sezon">Ripper</a>
+								<a href="https://dizillahd.com/grantchester-1-sezon">Grantchester</a>
+								<a href="https://dizillahd.com/blindspot-1-sezon">Blindspot</a>
+								<a href="https://dizillahd.com/the-mentalist-1-sezon">Mentalist</a>
+								<a href="https://dizillahd.com/true-detective-1-sezon">True</a>
+								<a href="https://dizillahd.com/person-of-interest-1-sezon">Person of</a>
+								<a href="https://www.dizibox.live/dizi/the-missing/1-sezon-youre-the-worst-the-missing/">Missing</a>
+								<a href="https://www.dizibox.live/dizi/baptiste/1-sezon-baptiste/">Baptiste</a>
+								<a href="https://www.dizibox.live/dizi/perception/1-sezon-perception/">Perception</a>
+								<a href="https://dizillahd.com/bosch-1-sezon">Bosch I</a>
+								<a href="https://dizillahd.com/bosch-legacy-1-sezon">Bosch II</a>
+								<a href="https://dizipal.im/dizi/inspector-george-gently/">Gently</a>
+								
+
+
+				</p>
+        </div>
+    </li>
+  
+    <li>
+        <input type="radio" name="tabs" id="tab6" />
+        <label for="tab6"
+               role="tab" 
+               aria-selected="false" 
+               aria-controls="panel6" 
+               tabindex="0">Diğer</label>
+        <div id="tab-content4" 
+             class="tab-content"
+             role="tabpanel" 
+             aria-hidden="true">
+				<p class="link">
+								<a href="https://google.com.tr">Google</a>
+								<a href="https://www.youtube.com/">Youtube</a>
+								<a href="https://fast.com/">Hız Testi</a>
+								<a href="https://www.ego.gov.tr/tr/otobusnerede?durak_no=20709&hat_no=271">Otobüs</a>
+				</p>
+        </div>
+    </li>
+</ul>
+</body>
+</html>
